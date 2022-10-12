@@ -54,6 +54,7 @@ router.get('/:id', (req, res) => {
 
 // create new product
 router.post('/', (req, res) => {
+  console.log(req.body,"HEY")
   /* req.body should look like this...
     {
       product_name: "Basketball",
